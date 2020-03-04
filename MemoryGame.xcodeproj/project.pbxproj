@@ -3,29 +3,53 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		A0C5D0F623EC881300610548 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0C5D0F523EC881300610548 /* AppDelegate.swift */; };
-		A0C5D0F823EC881300610548 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0C5D0F723EC881300610548 /* SceneDelegate.swift */; };
-		A0C5D0FA23EC881300610548 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0C5D0F923EC881300610548 /* ViewController.swift */; };
 		A0C5D0FD23EC881300610548 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A0C5D0FB23EC881300610548 /* Main.storyboard */; };
 		A0C5D10023EC881300610548 /* MemoryGame.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A0C5D0FE23EC881300610548 /* MemoryGame.xcdatamodeld */; };
 		A0C5D10223EC881500610548 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A0C5D10123EC881500610548 /* Assets.xcassets */; };
 		A0C5D10523EC881500610548 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A0C5D10323EC881500610548 /* LaunchScreen.storyboard */; };
+		A0C5D11023EC969700610548 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0C5D10F23EC969700610548 /* Card.swift */; };
+		A0C5D11223EC96DD00610548 /* MemoryGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0C5D11123EC96DD00610548 /* MemoryGame.swift */; };
+		A0C5D11423EC975600610548 /* GameController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0C5D11323EC975600610548 /* GameController.swift */; };
+		A0C5D11623EC998600610548 /* APIFlickr.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0C5D11523EC998600610548 /* APIFlickr.swift */; };
+		A0C5D11A23EC9BCD00610548 /* CardCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0C5D11923EC9BCD00610548 /* CardCell.swift */; };
+		A0EA620323ECB0DB004123BB /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0EA620223ECB0DB004123BB /* Extension.swift */; };
+		A0EA620923ECB69C004123BB /* MainController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0EA620823ECB69C004123BB /* MainController.swift */; };
+		A0EA620B23ECB6AB004123BB /* LevelController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0EA620A23ECB6AB004123BB /* LevelController.swift */; };
+		A0EA620D23ED7F44004123BB /* Highscore.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0EA620C23ED7F44004123BB /* Highscore.swift */; };
+		A0EA620F23ED95D0004123BB /* HighscoreCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0EA620E23ED95D0004123BB /* HighscoreCell.swift */; };
+		A0EA621123ED968B004123BB /* HighscoreController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0EA621023ED968B004123BB /* HighscoreController.swift */; };
+		A0EA621323ED9FCB004123BB /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0EA621223ED9FCB004123BB /* Player.swift */; };
+		BAFC43C96A42B9D4BC3B39F9 /* Pods_MemoryGame.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 256B4C998BE58BD50BCE4CF4 /* Pods_MemoryGame.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		256B4C998BE58BD50BCE4CF4 /* Pods_MemoryGame.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MemoryGame.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		798B3A74EC0B3A1239FF81B2 /* Pods-MemoryGame.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MemoryGame.debug.xcconfig"; path = "Target Support Files/Pods-MemoryGame/Pods-MemoryGame.debug.xcconfig"; sourceTree = "<group>"; };
+		9CA1E7284AB83C0C7E16B6E0 /* Pods-MemoryGame.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MemoryGame.release.xcconfig"; path = "Target Support Files/Pods-MemoryGame/Pods-MemoryGame.release.xcconfig"; sourceTree = "<group>"; };
 		A0C5D0F223EC881300610548 /* MemoryGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MemoryGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A0C5D0F523EC881300610548 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		A0C5D0F723EC881300610548 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		A0C5D0F923EC881300610548 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		A0C5D0FC23EC881300610548 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A0C5D0FF23EC881300610548 /* MemoryGame.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MemoryGame.xcdatamodel; sourceTree = "<group>"; };
 		A0C5D10123EC881500610548 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A0C5D10423EC881500610548 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A0C5D10623EC881500610548 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A0C5D10F23EC969700610548 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		A0C5D11123EC96DD00610548 /* MemoryGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoryGame.swift; sourceTree = "<group>"; };
+		A0C5D11323EC975600610548 /* GameController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameController.swift; sourceTree = "<group>"; };
+		A0C5D11523EC998600610548 /* APIFlickr.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIFlickr.swift; sourceTree = "<group>"; };
+		A0C5D11923EC9BCD00610548 /* CardCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardCell.swift; sourceTree = "<group>"; };
+		A0EA620223ECB0DB004123BB /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
+		A0EA620823ECB69C004123BB /* MainController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainController.swift; sourceTree = "<group>"; };
+		A0EA620A23ECB6AB004123BB /* LevelController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LevelController.swift; sourceTree = "<group>"; };
+		A0EA620C23ED7F44004123BB /* Highscore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Highscore.swift; sourceTree = "<group>"; };
+		A0EA620E23ED95D0004123BB /* HighscoreCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HighscoreCell.swift; sourceTree = "<group>"; };
+		A0EA621023ED968B004123BB /* HighscoreController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HighscoreController.swift; sourceTree = "<group>"; };
+		A0EA621223ED9FCB004123BB /* Player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +57,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BAFC43C96A42B9D4BC3B39F9 /* Pods_MemoryGame.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		295B19C07669B2048D620ACF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				798B3A74EC0B3A1239FF81B2 /* Pods-MemoryGame.debug.xcconfig */,
+				9CA1E7284AB83C0C7E16B6E0 /* Pods-MemoryGame.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		49D315BE35A71CE0FC4D1ED5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				256B4C998BE58BD50BCE4CF4 /* Pods_MemoryGame.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		A0C5D0E923EC881200610548 = {
 			isa = PBXGroup;
 			children = (
 				A0C5D0F423EC881300610548 /* MemoryGame */,
 				A0C5D0F323EC881300610548 /* Products */,
+				295B19C07669B2048D620ACF /* Pods */,
+				49D315BE35A71CE0FC4D1ED5 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,16 +102,50 @@
 		A0C5D0F423EC881300610548 /* MemoryGame */ = {
 			isa = PBXGroup;
 			children = (
+				A0EA620223ECB0DB004123BB /* Extension.swift */,
+				A0C5D11523EC998600610548 /* APIFlickr.swift */,
+				A0EA620C23ED7F44004123BB /* Highscore.swift */,
+				A0C5D10E23EC960600610548 /* Model */,
+				A0C5D10D23EC95FC00610548 /* Controller */,
+				A0C5D10C23EC95F500610548 /* View */,
 				A0C5D0F523EC881300610548 /* AppDelegate.swift */,
-				A0C5D0F723EC881300610548 /* SceneDelegate.swift */,
-				A0C5D0F923EC881300610548 /* ViewController.swift */,
-				A0C5D0FB23EC881300610548 /* Main.storyboard */,
 				A0C5D10123EC881500610548 /* Assets.xcassets */,
 				A0C5D10323EC881500610548 /* LaunchScreen.storyboard */,
 				A0C5D10623EC881500610548 /* Info.plist */,
 				A0C5D0FE23EC881300610548 /* MemoryGame.xcdatamodeld */,
 			);
 			path = MemoryGame;
+			sourceTree = "<group>";
+		};
+		A0C5D10C23EC95F500610548 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A0C5D0FB23EC881300610548 /* Main.storyboard */,
+				A0C5D11923EC9BCD00610548 /* CardCell.swift */,
+				A0EA620E23ED95D0004123BB /* HighscoreCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A0C5D10D23EC95FC00610548 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				A0C5D11323EC975600610548 /* GameController.swift */,
+				A0EA620823ECB69C004123BB /* MainController.swift */,
+				A0EA620A23ECB6AB004123BB /* LevelController.swift */,
+				A0EA621023ED968B004123BB /* HighscoreController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		A0C5D10E23EC960600610548 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A0C5D10F23EC969700610548 /* Card.swift */,
+				A0C5D11123EC96DD00610548 /* MemoryGame.swift */,
+				A0EA621223ED9FCB004123BB /* Player.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -77,9 +155,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A0C5D10923EC881500610548 /* Build configuration list for PBXNativeTarget "MemoryGame" */;
 			buildPhases = (
+				F9FDEDFA515E8CAD7E7746B7 /* [CP] Check Pods Manifest.lock */,
 				A0C5D0EE23EC881200610548 /* Sources */,
 				A0C5D0EF23EC881200610548 /* Frameworks */,
 				A0C5D0F023EC881200610548 /* Resources */,
+				225F7D12F0A71030A187B73E /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -136,15 +216,67 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		225F7D12F0A71030A187B73E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MemoryGame/Pods-MemoryGame-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MemoryGame/Pods-MemoryGame-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MemoryGame/Pods-MemoryGame-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F9FDEDFA515E8CAD7E7746B7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MemoryGame-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		A0C5D0EE23EC881200610548 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A0C5D0FA23EC881300610548 /* ViewController.swift in Sources */,
+				A0C5D11623EC998600610548 /* APIFlickr.swift in Sources */,
+				A0C5D11423EC975600610548 /* GameController.swift in Sources */,
+				A0EA620F23ED95D0004123BB /* HighscoreCell.swift in Sources */,
 				A0C5D0F623EC881300610548 /* AppDelegate.swift in Sources */,
+				A0EA621323ED9FCB004123BB /* Player.swift in Sources */,
+				A0EA620B23ECB6AB004123BB /* LevelController.swift in Sources */,
+				A0C5D11223EC96DD00610548 /* MemoryGame.swift in Sources */,
+				A0EA620323ECB0DB004123BB /* Extension.swift in Sources */,
 				A0C5D10023EC881300610548 /* MemoryGame.xcdatamodeld in Sources */,
-				A0C5D0F823EC881300610548 /* SceneDelegate.swift in Sources */,
+				A0EA620923ECB69C004123BB /* MainController.swift in Sources */,
+				A0EA620D23ED7F44004123BB /* Highscore.swift in Sources */,
+				A0EA621123ED968B004123BB /* HighscoreController.swift in Sources */,
+				A0C5D11023EC969700610548 /* Card.swift in Sources */,
+				A0C5D11A23EC9BCD00610548 /* CardCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,11 +418,13 @@
 		};
 		A0C5D10A23EC881500610548 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 798B3A74EC0B3A1239FF81B2 /* Pods-MemoryGame.debug.xcconfig */;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-1";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = TPD86YV292;
 				INFOPLIST_FILE = MemoryGame/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -304,11 +438,13 @@
 		};
 		A0C5D10B23EC881500610548 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9CA1E7284AB83C0C7E16B6E0 /* Pods-MemoryGame.release.xcconfig */;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-1";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = TPD86YV292;
 				INFOPLIST_FILE = MemoryGame/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
